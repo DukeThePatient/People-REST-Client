@@ -11,4 +11,5 @@ public class Application {
         SpringApplication.run(Application.class, args);
         //ConfigurableApplicationContext applicationContext = SpringApplication.run(Application.class, args);
     }
+
 }
