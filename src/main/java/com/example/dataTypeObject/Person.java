@@ -7,7 +7,7 @@ public class Person {
     private String emailAddress;
     private String phoneNumber;
     private String ssn;
-    private int userId;
+    private int personId;
 
     public String getFirstName() {
         return firstName;
@@ -49,11 +49,11 @@ public class Person {
         this.ssn = ssn;
     }
 
-    public int getUserId() {
-        return userId;
+    public int getPersonId() {
+        return personId;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setPersonId(int personId) {
+        this.personId = personId;
     }
 }
