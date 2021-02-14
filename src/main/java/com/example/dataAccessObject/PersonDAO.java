@@ -7,7 +7,7 @@ import java.util.Collection;
 public interface PersonDAO {
 
     Collection<Person> getAllPersons();
-    void getOnePersonByID();
+    Person getOnePersonByID(int userId);
     Person updatePerson();
     Person deletePerson();
 
